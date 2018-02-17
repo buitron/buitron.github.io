@@ -1,42 +1,31 @@
+---
+# Front matter
+---
+
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Buitron's Coding Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+  <meta charset="utf-8">
+  <title></title>
+
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
-    <h1>
-        My Coding/Analysis Portfolio
-    </h1>
 
-    <img src="https://lrmonline.com/wp-content/uploads/2017/09/Rocket-Raccoon-2-1024x576.jpg" alt="profile image" style="width:40%">
-
-    <p>
-        Welcome beautiful people to my coding portfolio!
-    </p>
-
-
-    <ul>
-        <li>
-            <a href="linkedin.com/buitron">LinkedIn</a>
-        </li>
-        <li>
-            <a href="github.com/buitron">GitHub</a>
-        </li>
-    </ul>
-
-
-    <ul>
-        <li>
-            <a href="./index.html">index</a>
-        </li>
-    </ul>
-
-    <ul>
-        <li>
-            <a href="https://buitron.github.io/heroes_of_pymoli_analysis/">heroes of pymoli analysis</a>
-        </li>
+    <ul class="list list--repos portfolio">
+        {% for repo in site.github.public_repositories limit:28 %}
+            {% if repo.fork != true %}
+                <li class="item item--repo repo">
+                    <a href="{{ repo.homepage }}">{{ repo.name }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
     </ul>
 
 </body>
