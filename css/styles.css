@@ -35,6 +35,9 @@ h3 { font-size: 1.1rem; line-height: 2.2rem; display: inline; font-weight: 700; 
 .repo--javascript { background: rgba(232, 201, 23, 0.1); }
 .repo--javascript .icon { fill: #E8C917; background: transparent; }
 .repo--javascript a { color: #E8C917; }
+.repo--jupyter .notebook { background: rgba(226, 141, 138, 0.1); }
+.repo--jupyter .notebook .icon { fill: #AF1D18; background: transparent; }
+.repo--jupyter .notebook a { color: #AF1D18; }
 .repo--php { background: rgba(97, 124, 190, 0.1); }
 .repo--php .icon { fill: #617CBE; background: transparent; }
 .repo--php a { color: #617CBE; }
@@ -42,8 +45,8 @@ h3 { font-size: 1.1rem; line-height: 2.2rem; display: inline; font-weight: 700; 
 .repo--plpgsql .icon { fill: #757575; background: transparent; }
 .repo--plpgsql a { color: #757575; }
 .repo--python { background: rgba(116, 191, 234, 0.1); }
-.repo--python .icon { fill: #3a77e0; background: transparent; }
-.repo--python a { color: #3a77e0; }
+.repo--python .icon { fill: #3A77E0; background: transparent; }
+.repo--python a { color: #3A77E0; }
 .repo--liquid { background: rgba(149, 190, 70, 0.1); }
 .repo--liquid .icon { fill: #95BE46; background: transparent; }
 .repo--liquid a { color: #95BE46; }
