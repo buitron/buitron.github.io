@@ -35,9 +35,9 @@ h3 { font-size: 1.1rem; line-height: 2.2rem; display: inline; font-weight: 700; 
 .repo--javascript { background: rgba(232, 201, 23, 0.1); }
 .repo--javascript .icon { fill: #E8C917; background: transparent; }
 .repo--javascript a { color: #E8C917; }
-.repo--jupyter .notebook { background: rgba(226, 141, 138, 0.1); }
-.repo--jupyter .notebook .icon { fill: #AF1D18; background: transparent; }
-.repo--jupyter .notebook a { color: #AF1D18; }
+.repo--jupyter { background: rgba(226, 141, 138, 0.1); }
+.repo--jupyter .icon { fill: #AF1D18; background: transparent; }
+.repo--jupyter a { color: #AF1D18; }
 .repo--php { background: rgba(97, 124, 190, 0.1); }
 .repo--php .icon { fill: #617CBE; background: transparent; }
 .repo--php a { color: #617CBE; }
