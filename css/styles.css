@@ -50,6 +50,12 @@ h3 { font-size: 1.1rem; line-height: 2.2rem; display: inline; font-weight: 700; 
 .repo--liquid { background: rgba(149, 190, 70, 0.1); }
 .repo--liquid .icon { fill: #95BE46; background: transparent; }
 .repo--liquid a { color: #95BE46; }
+.repo--visual { background: rgba(193, 165, 229, 0.1); }
+.repo--visual .icon { fill: #4E0BA5; background: transparent; }
+.repo--visual a { color: #4E0BA5; }
+.repo-- { background: rgba(172, 204, 169, 0.1); }
+.repo-- .icon { fill: #166D0E; background: transparent; }
+.repo-- a { color: #166D0E; }
 
 .details { position: absolute; font-size: .8rem; top: 15px; right: 20px; opacity: 0.75; }
 .details span { margin-left: 16px; }
