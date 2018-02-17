@@ -64,8 +64,8 @@
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{ repo.language | downcase }}"></use>
                         </svg>
 
-                        <h3><a href="{{ repo.homepage }}">{{ repo.name }}</a></h3>
-                        <p>{{ repo.description }} : {{ repo.language }}</p>
+                        <h3><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
+                        <p>{{ repo.description }}</p>
 
                         <a class="button" href="{{ repo.downloads_url }}"><svg class="icon  icon--sub"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#down"></use></svg> Download</a>
 
