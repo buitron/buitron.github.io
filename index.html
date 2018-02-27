@@ -77,7 +77,7 @@
                         <h3><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
                         <p>{{ repo.description }}</p>
 
-                        <a class="button" href="{{ repo.downloads_url }}"><svg class="icon  icon--sub"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#down"></use></svg> Download</a>
+                        <a class="button" href="{{ repo.archive_format.zipball }}"><svg class="icon  icon--sub"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#down"></use></svg> Download</a>
 
                         <a class="button" href="{{ repo.forks_url }}"><svg class="icon  icon--sub"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#octocat"></use></svg> Fork it</a>
 
